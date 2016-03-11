@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4 {
+    font-family: "proxima_nova_bold", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+.center {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 990px;
+}
+.middle {
+    text-align: center;
+}
+.group {
+    zoom: 1;
+}
+.clear {
+    clear: both;
+    float: none;
+}
+header {
+    position: fixed;
+    height: 89px;
+    display: block;
+    padding: 0 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background: rgba(255,255,255,0.97);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    z-index: 980;
+}
+header .logo {
+    display: block;
+    width: 52px;
+    height: 52px;
+    float: left;
+    margin-top: 20px;
+    background: url("../img/logo.png") no-repeat 0px 0px / 48px 48px;
+}
+
+.team_pic {
+    margin-top: 89px;
+    width: 100%;
+    background-color: #ec1165;
+}
+
+article {
+    padding-top: 55px;
+    position: relative;
+    display: block;
+}
+article.brick {
+    background: url('../img/brick_pattern.png') 0 40px;
+}
+h1 {
+    font-size: 3.75em;
+    color: #493e45;
+    display: block;
+    letter-spacing: -0.01em;
+    width: 100%;
+}
+h1 span{
+    font-family: "proxima_nova_regular", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+div.team_bio {
+    overflow: hidden;
+}
+div.team_bio.divider {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+div.team_bio.grey {
+    background: rgba(217,217,217,0.1);
+}
