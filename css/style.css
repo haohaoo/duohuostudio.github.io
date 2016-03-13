@@ -55,6 +55,7 @@ article {
 }
 article.brick {
     background: url('../img/brick_pattern.png') 0 40px;
+    background-color: white;
 }
 h1 {
     font-size: 3.75em;
@@ -169,3 +170,65 @@ article p{
             opacity: 0.65;
             background-size:auto auto;
         }
+        /*footer*/
+
+.white-wave {
+    background: url(../img/footer_wave.png);
+    height: 25px;
+    width: 100%;
+    margin-bottom: 430px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    font-family: "Microsoft YaHei" ! important;
+}
+
+footer h1 {
+    font-size: 44px;
+    color: white;
+    padding-top: 77px;
+    padding-bottom: 25px;
+}
+
+footer h3 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32.5px;
+}
+
+.footer_btn {
+    display: block;
+    height: 63px;
+    width: 240px;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    line-height: 63px;
+    font-size: 16px;
+    text-align: center;
+    margin: 50px auto;
+    transition: background-color 1.5s;
+}
+
+a.footer_btn:hover {
+    color: #ed1165;
+    background-color: white;
+    border-color: #ed1165;
+}
+
+footer p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer p > a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
