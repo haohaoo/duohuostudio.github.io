@@ -76,3 +76,44 @@ div.team_bio.divider {
 div.team_bio.grey {
     background: rgba(217,217,217,0.1);
 }
+
+/*this part coding from yz*/
+/*The part of center div*/
+
+.portrait{
+    height: 496px;
+    width: 466px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+}
+
+article h3{
+    display: block;
+    font-size: 30px;
+    margin: 60px 550px 10px;
+    position: relative;
+    top: 80px;
+}
+
+article h4{
+    display: block;
+    font-size: 20px;
+    margin: 20px;
+    position: relative;
+    left: 88px;
+    top: 80px;
+    color:gray;
+}
+
+article p{
+    display: block;
+    font-size: 16px;
+    height: 166px;
+    width: 990px;
+    line-height: 1.825em;
+    color: #4a4e4b;
+    position: relative;
+    left: 88px;
+    top: 80px;
+}
