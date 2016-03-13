@@ -142,3 +142,30 @@ article p{
     position: relative;
     left: 0px;
 }
+.bgimg{
+            background-image: url(../img/team.JPG);
+            width:100%;
+            height:900px;
+        }
+        .bgimgset{
+            position:relative;
+            width:350px;
+            margin:50px auto;
+            top:300px;
+            z-index:2;
+            color:white;
+            
+        }
+        .bgimg p{
+            font-size: 25px;
+        }
+        .bgset{
+            width:100%;
+            height:900px;
+            position:relative;
+            margin-top:-900px;
+            z-index:1;
+            background-color: #ec1165;
+            opacity: 0.65;
+            background-size:auto auto;
+        }
