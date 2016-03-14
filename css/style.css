@@ -137,6 +137,12 @@ article p{
     position: relative;
     left: 0px;
 }
+
+article a{
+    text-decoration: none;
+    color: #0e0f0f;
+}
+
 .bgimg{
             background-image: url(../img/team.JPG);
             width:100%;
