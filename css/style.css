@@ -42,12 +42,6 @@ header .logo {
     background: url("../img/logo.png") no-repeat 0px 0px / 48px 48px;
 }
 
-.team_pic {
-    margin-top: 89px;
-    width: 100%;
-    background-color: #ec1165;
-}
-
 article {
     padding-top: 55px;
     position: relative;
@@ -147,6 +141,7 @@ article p{
             background-image: url(../img/team.JPG);
             width:100%;
             height:900px;
+            margin-top: 89px;
         }
         .bgimgset{
             position:relative;
