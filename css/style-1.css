@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4 {
+    font-family: "proxima_nova_bold", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+.center {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 990px;
+}
+.middle {
+    text-align: center;
+}
+.group {
+    zoom: 1;
+}
+.clear {
+    clear: both;
+    float: none;
+}
+header {
+    position: fixed;
+    height: 69px;
+    display: block;
+    padding: 0 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background: rgba(255,255,255,0.97);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    z-index: 980;
+}
+header .logo {
+    display: block;
+    width: 52px;
+    height: 52px;
+    float: left;
+    margin-top: 10px;
+    background: url("../img/logo.png") no-repeat 0px 0px / 48px 48px;
+}
+
+article {
+    padding-top: 55px;
+    position: relative;
+    display: block;
+}
+article.brick {
+    background: url('../img/brick_pattern.png') 0 40px;
+    background-color: white;
+}
+h1 {
+    font-size: 3.75em;
+    color: #493e45;
+    display: block;
+    letter-spacing: -0.01em;
+    margin: 30px auto;
+    text-align: center;
+}
+h1 span{
+    font-family: "proxima_nova_regular", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+div.team_bio {
+    overflow: hidden;
+}
+div.team_bio.divider {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+div.team_bio.grey {
+    background: rgba(217,217,217,0.1);
+}
+
+/*this part coding from yz*/
+/*The part of center div*/
+
+.taskbox{
+    width: 800px;
+    margin: 30px auto;
+}
+
+.nonebox{
+    height: 600px;
+}
+
+article h4{
+    display: block;
+    font-size: 20px;
+    margin: 20px;
+    position: relative;
+    left: 88px;
+    top: 80px;
+    color:gray;
+}
+
+.h4-r{
+    position: relative;
+    left: -19px;
+}
+
+article p{
+    display: block;
+    font-size: 16px;
+    height: 166px;
+    width: 990px;
+    line-height: 1.825em;
+    color: #4a4e4b;
+    position: relative;
+    left: 88px;
+    top: 80px;
+}
+
+.p-r{
+    position: relative;
+    left: 0px;
+}
+
+article a{
+    text-decoration: none;
+    color: #0e0f0f;
+}
+
+.bgimg{
+            background-image: url(../img/team.JPG);
+            width:100%;
+            height:900px;
+            margin-top: 89px;
+        }
+        .bgimgset{
+            position:relative;
+            width:350px;
+            margin:50px auto;
+            top:300px;
+            z-index:2;
+            color:white;
+            
+        }
+        .bgimg p{
+            font-size: 25px;
+        }
+        .bgset{
+            width:100%;
+            height:900px;
+            position:relative;
+            margin-top:-900px;
+            z-index:1;
+            background-color: #ec1165;
+            opacity: 0.65;
+            background-size:auto auto;
+        }
+        /*footer*/
+
+.white-wave {
+    background: url(../img/footer_wave.png);
+    height: 25px;
+    width: 100%;
+    margin-bottom: 430px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    font-family: "Microsoft YaHei" ! important;
+}
+
+footer h1 {
+    font-size: 44px;
+    color: white;
+    padding-top: 77px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+}
+
+footer h3 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32.5px;
+}
+
+.footer_btn {
+    display: block;
+    height: 63px;
+    width: 240px;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    line-height: 63px;
+    font-size: 16px;
+    text-align: center;
+    margin: 50px auto;
+    transition: background-color 1.5s;
+}
+
+a.footer_btn:hover {
+    color: #ed1165;
+    background-color: white;
+    border-color: #ed1165;
+}
+
+footer p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer p > a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
