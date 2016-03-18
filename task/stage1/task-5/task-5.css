@@ -1,0 +1,219 @@
+/*导航栏部分*/
+*{
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+body{
+	background-color: #eee;
+}
+
+nav a{
+	text-decoration: none;
+	color: #e66161;
+	font-weight: 10px;
+}
+
+.nav{
+	position: fixed;
+    height: 69px;
+    display: block;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background: rgba(255,255,255,0.97);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    z-index: 980;   
+}
+
+.nav ul{
+	margin: 10px;
+	float: right;
+}
+
+.nav li{
+	display: inline;
+}
+
+/*这是主内容*/
+.mainbody{
+	margin: 99px 2%; 
+/*	background-color: #60d5aa;*/
+	min-height:1500px; 
+	width: 62%;
+	float: left;
+}
+
+article,section,aside{
+	padding: 30px;
+	margin: 0 0 30px 0;
+	background-color: white;
+	width: 100%;
+	border: solid 1px #2e2e2e;
+}
+
+article h1,section h1{
+	padding: 6px;
+	font-size: 36px;
+	font-weight: 40px;
+}
+
+article h2,.author,time{
+	padding: 6px;
+	color:#848282;
+}
+
+article p{
+	margin: 10px;
+	text-indent: 2em;
+	line-height: 150%;	
+}
+
+article img{
+	width: 650px;
+	height: 700px;
+}
+
+article ul{
+	list-style: none;
+}
+
+article li{
+	margin: 15px;
+}
+
+article ol{
+	margin: 30px 50px;
+}
+
+section{
+	padding: 80px;
+	overflow: hidden;
+}
+
+section figure{
+	display: inline;
+	margin: 20px;
+	float: left;
+	width: 150px;
+	height: 200px;
+	border: solid 1px #2e2e2e;
+	position: relative;
+}
+
+figcaption{
+	position: absolute;
+	top: 10px;
+	left: 33px;
+}
+
+section img{
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+
+table{
+	width: 98%;
+	margin: 0 1%;
+	border-spacing: 0;
+  	border-collapse: collapse;
+}
+
+tr{
+	border:solid 2px #848282;
+}
+
+th,td{
+	padding: 0;
+}
+
+th{
+	background-color: #424141;
+	color: white;
+}
+
+.last-tr{
+	border-style: none;
+	background-color: #7b7878;
+}
+
+/*这是右侧边栏*/
+
+aside{
+	margin:  99px 2%;
+	padding: 20px;
+	min-height: 520px;
+/*	background-color: #66ec5f;*/
+	width: 30%;
+	float: right;
+	position: relative;
+}
+
+.aside-header{
+	width: 3px;
+	height: 40px;
+	background-color: #c0bbbb;
+	float: left;
+}
+
+aside header{
+	height: 40px;
+	margin: 0 0 30px 0;
+	position: relative;
+}
+
+aside header h2{
+	position: absolute;
+	left: 15px;
+	top: 5px;
+
+}
+
+aside form{
+	position: absolute;
+	right: 100px;
+}
+
+aside form p{
+	margin: 10px 60px 10px 0;
+
+}
+
+aside form textarea{
+
+}
+
+aside form label{
+	font-size: 12px;
+    display: inline-block;
+    text-align: right;
+    width: 35%;
+    vertical-align: top;
+}
+
+aside form input{
+	
+}
+
+
+/*这是页脚*/
+
+footer{
+	height:80px; 
+	width: 100%;
+	background-color: #56d2ed;
+	clear: both;
+	padding: 36px;
+}
+
+footer p{
+	text-align: center;
+}
