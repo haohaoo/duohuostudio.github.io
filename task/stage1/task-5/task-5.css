@@ -2,6 +2,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: SimHei;
 	-moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
     box-sizing:border-box;
@@ -150,7 +151,7 @@ th{
 aside{
 	margin:  99px 2%;
 	padding: 20px;
-	min-height: 520px;
+	min-height: 590px;
 /*	background-color: #66ec5f;*/
 	width: 30%;
 	float: right;
@@ -178,6 +179,7 @@ aside header h2{
 }
 
 aside form{
+	width: 70%;
 	position: absolute;
 	right: 100px;
 }
@@ -188,19 +190,45 @@ aside form p{
 }
 
 aside form textarea{
+	margin: 15px;
+	display: block;
+	width: 100%;
+}
 
+aside table{
+	width: 100%;
+	border-style: none;
+}
+
+aside table tr,aside table td{
+	border-style: none;
+	height: 20px;
+	padding: 5px;
+}
+
+.table-label{
+	text-align: right;
+}
+
+.td-p{
+	font-size: 15px;
+	text-align: center;
+	font-style: oblique;
+	color: #a4a4a4;
 }
 
 aside form label{
-	font-size: 12px;
-    display: inline-block;
-    text-align: right;
-    width: 35%;
-    vertical-align: top;
+	text-align: right;
 }
 
-aside form input{
-	
+#submit{
+	background-color: #54c1f4;
+	display: block;
+	width: 130%;
+	height: 30px;
+	border-style: none;
+	position: relative;
+	left: -10%;
 }
 
 
