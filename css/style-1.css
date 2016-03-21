@@ -127,8 +127,8 @@ article a{
             width:100%;
             height:900px;
             margin-top: 89px;
-        }
-        .bgimgset{
+}
+.bgimgset{
             position:relative;
             width:350px;
             margin:50px auto;
@@ -150,6 +150,16 @@ article a{
             opacity: 0.65;
             background-size:auto auto;
         }
+
+.ab-us{
+    font-size: 30px;
+    position: absolute;
+    right: 29%;
+    top: 15px;
+    color: #515151;
+}        
+
+
         /*footer*/
 
 .white-wave {
